@@ -2,29 +2,26 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
 :root {
-    /* Цвета (тёмная тема по умолчанию) */
-    --main-text-color: #F1B2CE;
-    --title-color: #DB00FF;
-    --title-shadow: #FF0070;
-    --hover-color: rgba(255, 0, 112, 0.4);
-    --background-color: #000028;
+    /* Colors */
+    --main-bg-color: #000028;
+    --text-color: #F1B2CE;
     --accent-color: #FF0070;
+    --title-color: #DB00FF;
     --section-title-color: #FF0070;
-    --decor-color: #FF0070;
+    --button-hover-color: rgba(255, 0, 112, 0.40);
     --button-color: #FF0070;
-    --link-shadow: #FF0070;
 
-    /* Шрифты */
+
+    /* Fonts */
     --main-font: 'IBM Plex Mono', monospace;
-    --font-size: 18px;
-    --title-font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-    --title-font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --font-size-base: 18px;
 
-    /* Отступы */
-    --gap: 20px;
-    --section-gap: 50px;
+    /* Background */
+    --bg-image: url('../images/cover-image-dark.png');
 
-    /* Изображения */
-    --cover-image: url("../images/cover-image-dark.png");
+    /* Sizes */
+    --header-title-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --header-title-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
