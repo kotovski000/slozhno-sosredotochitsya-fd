@@ -22,13 +22,27 @@
 
 .theme-light .page {
     /* Вам также нужно будет написать ряд подобных селекторов */
-    background-image: var(--bg-image);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
 
 
 }
 .theme-light .rec__decoration {
     display: none;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --main-bg-color: #FFF1F7;
+        --text-color: #353430;
+        --accent-color: #FF8DCB;
+        --title-color: #FFC2E6;
+        --decor-color:#353430;
+        --section-title-color: #353430;
+        --button-hover-color: rgba(50, 49, 45, 0.4);
+        --button-color: #353430;
+        --bg-image: url('../images/cover-image-light.png');
+    }
 }
