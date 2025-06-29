@@ -136,11 +136,11 @@
     font-weight: bold;
 }
 
-.article__title-advice{
+.article__title-advice {
     font-size: var(--main-font);
 }
 
-h4.title-decor  {
+h4.title-decor {
     background-color: var(--accent-color);
     color: var(--main-bg-color);
     font-weight: normal;
@@ -211,7 +211,7 @@ h4.title-decor  {
     margin-top: 50px;
 }
 
-.gallery__title{
+.gallery__title {
     font-size: inherit;
 }
 
@@ -234,14 +234,14 @@ h4.title-decor  {
 
 @media (width >= 768px) {
 
-    .header{
+    .header {
         min-height: 1024px;
     }
 
     .header__text {
         margin-block-start: 158px;
         margin-right: 10px;
-        inline-size: 364px;
+        margin-inline-start: 375px;
         justify-self: right;
         height: fit-content;
     }
@@ -283,19 +283,17 @@ h4.title-decor  {
 
     .section__title {
         grid-row: span 2;
-        inline-size: 236px;
-
+        margin-right: 10px;
     }
 
-    .concentration-reasons .section__title{
+    .concentration-reasons .section__title {
         margin-top: 30px;
     }
 
-    .concentration-reasons .section__content{
+    .concentration-reasons .section__content {
         margin-top: 40px;
         margin-left: 15px;
-        inline-size: 472px;
-
+        margin-inline-start: 15px;
     }
 
     .concentration-tips .article__title-advice {
@@ -305,11 +303,11 @@ h4.title-decor  {
         margin-left: 13px;
     }
 
-    .concentration-tips .section__content{
+    .concentration-tips .section__content {
         margin-left: 13px;
     }
 
-    .concentration-tips .article__text{
+    .concentration-tips .article__text {
         margin-bottom: 20px;
     }
 
@@ -327,7 +325,7 @@ h4.title-decor  {
         font-size: var(--header-title-size-desktop);
     }
 
-    .gallery__title{
+    .gallery__title {
         padding-top: 0;
         margin-top: 0;
         line-height: 23.4px;
@@ -365,28 +363,29 @@ h4.title-decor  {
 
 @media (width >= 1024px) {
 
-    .header{
+    .header {
         min-height: 768px;
     }
 
     .header__theme-menu {
         align-self: start;
+        justify-self: center;
     }
 
     .header__theme-menu-list {
         flex-direction: row;
-        margin-top: 18px;
-        margin-right: 388px;
+        margin-top: 20px;
+        margin-right: 40px;
     }
 
-    .header__title{
+    .header__title {
         margin: 0;
         padding: 0;
     }
 
     .header__text {
-        margin-block-start: 110px;
-        inline-size: 491px;
+        margin-block-start: 113px;
+        margin-inline-start: 503px;
         font-size: 18px;
         height: fit-content
     }
@@ -395,15 +394,15 @@ h4.title-decor  {
         margin-bottom: 15px;
     }
 
-    .section__title {
-        inline-size: 315px;
+    /*.section__title {*/
+    /*    inline-size: 315px;*/
+    /*}*/
+
+    .concentration-reasons .section__content {
+        margin-inline-start: 6px;
     }
 
-    .concentration-reasons .section__content{
-        inline-size: 650px;
-    }
-
-    .concentration-reasons .article__text{
+    .concentration-reasons .article__text {
         margin-bottom: 0;
     }
 
