@@ -22,3 +22,7 @@
 
 }
 
+.theme-dark .rec__decoration {
+    display: block;
+}
+

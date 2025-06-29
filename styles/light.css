@@ -36,4 +36,9 @@
         --button-color: #353430;
         --bg-image: url('../images/cover-image-light.png');
     }
+
+    .rec__decoration {
+        display: none;
+    }
+
 }
