@@ -157,7 +157,7 @@
     font-size: var(--font-size-base);
 }
 
-.article{
+.article {
     gap: 20px;
 }
 
@@ -172,7 +172,7 @@
     line-height: 23px;
 }
 
-.last{
+.last {
     margin-top: 40px;
 }
 
@@ -245,12 +245,12 @@
         left: 20px;
     }
 
-    .header__theme-menu-list{
+    .header__theme-menu-list {
         padding-top: 50px;
         padding-right: 10px;
     }
 
-    .rec__decoration{
+    .rec__decoration {
         padding-top: 10px;
         padding-right: 10px;
     }
@@ -271,11 +271,11 @@
         padding-bottom: 0;
     }
 
-    .section__content{
+    .section__content {
         margin-top: 20px;
     }
 
-    .concentration-tips .article__title__advice_5{
+    .concentration-tips .article__title__advice_5 {
         margin-top: 40px;
         font-size: var(--font-size-base);
         margin-bottom: 0;
