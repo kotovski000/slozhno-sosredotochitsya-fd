@@ -11,6 +11,7 @@
     */
 
     --main-bg-color: #000028;
+    --header-color: #000028;
     --text-color: #F1B2CE;
     --accent-color: #FF0070;
     --decor-color:#FF0070;
@@ -24,5 +25,21 @@
 
 .theme-dark .rec__decoration {
     display: block;
+}
+
+.theme-dark .header__text {
+    color: var(--header-color);
+}
+
+.theme-dark .article__title{
+    color: var(--header-color);
+}
+
+.theme-dark .article__title-advice{
+    color: var(--header-color);
+}
+
+.theme-dark .gallery__title{
+    color: var(--header-color);
 }
 

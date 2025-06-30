@@ -5,6 +5,7 @@
 
 :root {
     --main-bg-color: #000028;
+    --header-color: #000028;
     --text-color: #F1B2CE;
     --accent-color: #FF0070;
     --decor-color:#FF0070;
@@ -13,7 +14,7 @@
     --button-hover-color: rgba(255, 0, 112, 0.40);
     --button-color: #FF0070;
 
-    --main-font: 'IBM Plex Mono', monospace;
+    --main-font: 'IBM Plex Mono';
     --font-size-base: 18px;
 
     --bg-image: url('../images/cover-image-dark.png');

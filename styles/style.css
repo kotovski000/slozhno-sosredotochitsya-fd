@@ -3,7 +3,7 @@
 .page {
     background-color: var(--main-bg-color);
     color: var(--text-color);
-    font-family: var(--main-font), monospace;
+    font-family: var(--main-font);
     font-size: var(--font-size-base);
     margin: 0;
     padding: 0;
@@ -132,17 +132,17 @@
 
 .title-decor {
     background-color: var(--accent-color);
-    color: var(--main-bg-color);
+    color: var(--header-color);
     font-weight: bold;
 }
 
 .article__title-advice {
-    font-size: var(--main-font);
+    font-size: var(--header-color);
 }
 
 h4.title-decor {
     background-color: var(--accent-color);
-    color: var(--main-bg-color);
+    color: var(--header-color);
     font-weight: normal;
 }
 
@@ -170,6 +170,7 @@ h4.title-decor {
     font-size: inherit;
     margin-bottom: 10px;
     margin-top: 20px;
+    color: var(--header-color);
 }
 
 
@@ -297,7 +298,7 @@ h4.title-decor {
     }
 
     .concentration-tips .article__title-advice {
-        margin-top: 50px;
+        margin-top: 55px;
         font-size: var(--font-size-base);
         margin-bottom: 0;
         margin-left: 13px;
@@ -308,16 +309,18 @@ h4.title-decor {
     }
 
     .concentration-tips .article__text {
-        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 22px;
     }
 
     .concentration-reducers .section__content {
         grid-column: 1 / -1;
-
+        margin-bottom: 0;
+        margin-top: 0;
     }
 
     .concentration-reducers .section__title {
-        margin-top: 40px;
+        margin-top: 30px;
         margin-bottom: 0;
     }
 
@@ -394,9 +397,6 @@ h4.title-decor {
         margin-bottom: 15px;
     }
 
-    /*.section__title {*/
-    /*    inline-size: 315px;*/
-    /*}*/
 
     .concentration-reasons .section__content {
         margin-inline-start: 6px;
@@ -412,5 +412,18 @@ h4.title-decor {
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .concentration-reducers .section__title {
+        margin-top: 40px;
+    }
+
+    .concentration-tips .article__title-advice {
+        margin-inline-start: 7px;
+        margin-block-start: 50px;
+
+
+    }
+    .concentration-tips .section__content {
+        margin-inline-start: 7px;
+    }
 
 }
