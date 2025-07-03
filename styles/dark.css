@@ -14,32 +14,14 @@
     --header-color: #000028;
     --text-color: #F1B2CE;
     --accent-color: #FF0070;
-    --decor-color:#FF0070;
+    --decor-color: #FF0070;
     --title-color: #DB00FF;
     --section-title-color: #FF0070;
     --button-hover-color: rgba(255, 0, 112, 0.40);
     --button-color: #FF0070;
     --bg-image: url('../images/cover-image-dark.png');
-
 }
 
 .theme-dark .rec__decoration {
     display: block;
 }
-
-.theme-dark .header__text {
-    color: var(--header-color);
-}
-
-.theme-dark .article__title{
-    color: var(--header-color);
-}
-
-.theme-dark .article__title-advice{
-    color: var(--header-color);
-}
-
-.theme-dark .gallery__title{
-    color: var(--header-color);
-}
-
