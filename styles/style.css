@@ -154,7 +154,7 @@ h4 {
     margin: 0 10px;
 }
 
-.concentration-reasons .section__title{
+.concentration-reasons .section__title {
     margin-top: 40px;
 }
 
@@ -210,8 +210,6 @@ h4 {
     object-position: center;
 }
 
-.gallery {
-}
 
 .gallery__title {
     font-size: inherit;
@@ -238,7 +236,7 @@ h4 {
 
 @media (width >= 768px) {
 
-    .header{
+    .header {
         padding-left: 0;
     }
 
@@ -292,11 +290,11 @@ h4 {
         margin-right: 10px;
     }
 
-    .article__title{
+    .article__title {
         margin-bottom: 10px;
     }
 
-    .article__text{
+    .article__text {
         margin-bottom: 20px;
     }
 
@@ -321,7 +319,7 @@ h4 {
         margin-bottom: 20px;
     }
 
-    .concentration-tips .section__title{
+    .concentration-tips .section__title {
         margin-top: 60px;
     }
 
@@ -431,7 +429,7 @@ h4 {
         margin-top: 45px;
     }
 
-    .gallery__title{
+    .gallery__title {
         margin-top: 45px;
     }
 
